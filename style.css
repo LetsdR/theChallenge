@@ -165,3 +165,29 @@ color:white;
     font-size: medium;
     padding: 12px;
   }
+
+
+  .container{
+    background-color: white;
+    padding: 20px ;
+    display: flex;
+    flex-wrap: wrap;
+    font-family:"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    text-align: center;
+    justify-content: center;
+  }
+  .span{
+    color:#611f69;
+    font-size:60px;
+    font-weight: bold;
+    
+@media (max-width:600px){
+    .container{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr
+    }
+}
+  }
+  .p5{
+    font-size: 12px;
+  }
