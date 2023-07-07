@@ -1,0 +1,167 @@
+*{
+    padding:0;
+    margin:0;
+
+}
+
+.nav{
+    background-color: #541554;
+    padding:20px;
+    display: flex;
+    justify-content: space-between;
+}
+.slack{
+    margin-top: 10px;
+    width: 15vh;
+   
+}
+.burger{
+    width: 4vh;
+}
+
+
+.main{
+    width: 100%;
+    position: relative;
+}
+.section1{
+    height: auto;
+    padding: 30px ;
+    background-color: #541554;
+    font-size: x-large;
+    font-family:"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    text-align: center;
+    box-sizing: content-box;
+}
+.h1{
+color:white;
+}
+.p{
+      color:#ecb22e;
+      margin-bottom: 20px;
+    text-align: center;
+    
+}
+.p2{
+    color: white;
+    font-size: smaller;
+    margin-bottom: 20px;
+}
+.botones{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+
+}
+.registro{
+        color: black;
+        background-color: white;
+        text-decoration: none;
+        border-radius: 4px;
+        margin-bottom: 10px;
+        padding: 19px 40px 20px;
+
+        }
+.google{
+        background-color:#4285f4;
+        color:aliceblue;
+        text-decoration: none;
+        margin-bottom: 20px;
+        border-radius: 4px;
+        padding: 19px 40px 20px;
+    }
+.video{
+    position:flex;
+    width: 100%;
+}
+.section2{
+    background-color:#F4EDE4;
+    display: flex;
+    padding: 30px ;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    display: flex;
+    letter-spacing: -.3px;
+    margin-bottom: 20px;
+    margin-block: 30px;
+     }
+  .sponsors {
+    display: inline-block;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    }
+    .img {
+       display:inline-block;
+       align-items:center;
+    }
+  
+.tarjeta{
+    background-color:#F4EDE4;
+    display: flex;
+}
+.text-tg{
+    background-color:#F4EDE4;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px ;
+    display: flex;
+    flex-direction: column;
+   
+}
+.htarjeta{
+    font-size: xx-large;
+     display: flex;
+     margin-bottom: 15px;
+}
+.p3{
+    font-size: medium;
+    margin-bottom: 10px
+  }
+
+.green-card{
+    display:flex;
+    justify-content: end;
+}
+
+.equipos{
+    height: auto;
+    padding: 30px ;
+    font-size:xx-large;
+    font-family:"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    text-align: center;
+    box-sizing: content-box;
+}
+.p4{
+    font-size: medium;
+    margin-bottom: 10px;
+  }
+.conoce{
+    font-size:15px ;
+    background-color:#611f69;
+    color:aliceblue;
+    text-decoration: none;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    padding: 19px 40px 20px;
+}
+.hablar{
+    background-color:white;
+    color:#611f69;
+    font-size: 15px ;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border-color: #611f69;
+    padding: 19px 40px 20px;
+    }
+
+.p4{
+    color:black;
+    font-size: medium;
+    padding: 12px;
+  }
