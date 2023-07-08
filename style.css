@@ -35,6 +35,7 @@
 }
 .h1{
 color:white;
+font-size: 40px;
 }
 .p{
       color:#ecb22e;
@@ -207,26 +208,28 @@ color:white;
     font-size: 20px;
     text-align: left;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-  .blue{
+.name{
+    padding-top: 15px;
+    font-weight: bold;
+}
+#director{
+    text-align: left;
+    padding-bottom: 15px;
+}
+#asterisco{
+    margin-top: 35px;
+    font-size: small;
+}
+.blue{
     color:#1264a3;
     margin-bottom: 20px;
+    margin-top: 50px;
     text-decoration: none;
     font-size: medium;
   }
-  .carrusel{
+
+
+.carrusel{
     background-color:#F4EDE4;
     display: flex;
     flex-direction: column;
@@ -245,4 +248,62 @@ h3{
     padding: 50px;
     display: flex;
     flex-direction: column;
+}
+.end{
+    padding: 40px ;
+    background-color: #541554;
+    font-family:"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    text-align: center;
+    box-sizing: content-box;
+    transition: box-shadow 420ms cubic-bezier(.165,.84,.44,1),color 420ms cubic-bezier(.165,.84,.44,1),background, 420ms cubic-bezier(.165,.84,.44,1);
+}
+.ios{
+    background-color:white;
+    color:#541554;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    padding: 19px 40px 20px;
+}
+.ventas{
+    background-color:transparent;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    padding: 19px 40px 20px;
+}
+
+.footer{
+    color:black;
+    padding: 30px;
+    display:block;
+    font-family:"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    text-align: left;
+    justify-content:left
+ }
+.logobajo{
+    width: 5vh; 
+    margin-bottom: 35px;
+}
+.pielista{
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: left;
+    align-items:self-start;
+    height: 40px;
+
+}
+.logobajo2{
+   padding: 30px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items:end;
+}
+.redes{
+    width: 4vh; 
 }
