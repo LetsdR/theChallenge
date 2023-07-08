@@ -160,11 +160,11 @@ color:white;
     padding: 19px 40px 20px;
     }
 
-.p4{
-    color:black;
-    font-size: medium;
-    padding: 12px;
-  }
+.p5{
+        color:black;
+        font-size: medium;
+        padding: 12px;
+ }
 
 
   .container{
@@ -191,3 +191,58 @@ color:white;
   .p5{
     font-size: 12px;
   }
+.opinion{
+    background-color: white;
+    padding: 20px ;
+    display: flex;
+    flex-wrap: wrap;
+    font-family:"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    text-align: center;
+    justify-content:left;
+  }
+.h4{
+    display:block;
+    font-family:sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .blue{
+    color:#1264a3;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-size: medium;
+  }
+  .carrusel{
+    background-color:#F4EDE4;
+    display: flex;
+    flex-direction: column;
+    padding:50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    display: inline-flex;
+    justify-content: space-around;
+}
+.target{
+    background-color: white;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
