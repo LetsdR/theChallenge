@@ -256,7 +256,7 @@ h3{
     font-family:"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
     text-align: center;
     box-sizing: content-box;
-    transition: box-shadow 420ms cubic-bezier(.165,.84,.44,1),color 420ms cubic-bezier(.165,.84,.44,1),background, 420ms cubic-bezier(.165,.84,.44,1);
+    clip-path:ellipse(95% 100% at center top);
 }
 .ios{
     background-color:white;
@@ -293,9 +293,18 @@ h3{
     text-transform: uppercase;
     margin-bottom: 50px;
     display: flex;
+    flex-wrap: nowrap;
     justify-content: left;
     align-items:self-start;
     height: 40px;
+}
+
+.tyc{
+    margin-top: 20px;
+    display:block;
+    justify-content: left;
+    align-items:center;
+    
 
 }
 .logobajo2{
